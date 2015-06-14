@@ -1,0 +1,44 @@
+.body3{
+    background : #EEE;
+    font : small-caption;
+    font-size : 11px;
+    margin : auto;
+}
+.tabla{
+	border:5px solid;
+	border-radius: 10px;
+    min-width: 800px;
+	font-family: Helvetica,Arial;
+    border-collapse: separate;
+}
+
+.tabla th{
+	border:1px solid #0011DD;
+    font-weight: bold;
+    color: #fff;
+    background-color: #444;
+    border-bottom:1px #000 solid;
+    padding: 6px;
+
+}
+.tabla td{
+	text-align: center;
+	border: 1px solid;
+    padding: 3px;
+}
+
+/*Todas las filas a partir de la segunda*/
+table.header tr:nth-child(n+2) {
+    text-align: right;
+}
+table tr:nth-child(2n) {
+    background: #87CEEB;
+}
+ 
+table tr:nth-child(2n+1){
+    background: #ADD8E6;
+}
+ 
+table.header tr:not(:first-child):hover, table:not(.header) tr:hover {
+    background:#E0FFFF;
+}

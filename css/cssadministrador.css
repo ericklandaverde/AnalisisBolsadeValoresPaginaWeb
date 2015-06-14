@@ -1,0 +1,73 @@
+.body3{
+	background : #EEE;
+	font : small-caption;
+	font-size : 11px;
+	margin : auto;
+}
+.formulario {
+	background : -webkit-linear-gradient( #F7F9ED , #FFF);
+	border : 2px solid #BBB;
+	border-radius : 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	height: 350px;
+	padding: 10px;
+	width: 300px;
+}
+
+.formulario label{
+	float:left;
+	height: 30px;
+	text-align: right;
+	width: 120px;
+}
+
+.formulario input{
+    border : #C0DEDE 1px solid;
+	border-radius: 5px;
+	height: 30px;
+	margin: 0px 0px 0px 10px;
+	outline: none;
+}
+
+.formulario input:focus{
+	box-shadow: 0px 0px 5px #C0DEDE;
+}
+
+
+#btnSubmit {
+	border:1px solid;
+	border-radius: 5px;
+	background-color:#FFF;
+	padding:3px;
+	margin: 20px;
+	cursor: pointer; 
+}
+
+#btnSubmit:hover{
+	background-color:#00FF00;
+	color:#FFFFFF;
+}
+
+.formulario .lstBase {
+    border : #C0DEDE 1px solid;
+	border-radius: 5px;
+	height: 30px;
+	margin: 0px 0px 0px 10px;
+	outline: none;
+}
+
+.formulario .error{
+	background : #DD0000;
+	color: white;
+	display: none;
+	float:left;
+	font-size: 13px;
+	font-weight: bold;
+	height: 20px;
+	margin: 0px 0px 0px 20px;
+	padding: 5px;
+	text-align: center;
+	width : 100px;
+}
